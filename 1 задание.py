@@ -1,5 +1,5 @@
 n_days = int(input())
-n_hour = n_days *60
+n_hour = n_days*60
 n_second = n_days*60*60
 v_hour = 38241 #miles per hour
 v_second = v_hour/3600 #miles per second
