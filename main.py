@@ -10,5 +10,5 @@ rd_wv_spd_hour = rd_wv_spd_second*3600 #in meters per hour
 cmmnctn_dl = n_hour/rd_wv_spd_hour
 print(f'in miles: {length}, \n'
       f'in kilometers: {length * 1.609344}, \n'
-      f'in astronomical units: {length*1.609344*149597870.7}')
-print(f'delay: {cmmnctn_dl}')
+      f'in astronomical units: {length*1.609344*149597870.7}, \n'
+      f'delay: {cmmnctn_dl}')
